@@ -1,9 +1,31 @@
-var num = 12;
+//explicit types
+let num : number;
+let name : string;
+let logic: boolean;
 
-num = 56 ;
 
-const circ = (diameter: number) => {
-    return diameter *  Math.PI
+
+// let ninjas: string[];
+let ninjas: string[] = [];
+ninjas.push("habib");
+console.log(ninjas)
+
+let mixed : (string|number|boolean)[] = [];
+mixed.push("hello");
+mixed.push(false);
+mixed.push(76);
+
+console.log(mixed)
+
+
+// objects
+
+const collection = {
+    name: "habib",
+    roll: 5,
+    student: true
 }
 
-console.log(circ(7.5))
+// collection.name = false
+collection.name = "rahman"
+console.log(collection)
