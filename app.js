@@ -1,22 +1,18 @@
-//explicit types
-var num;
-var name;
-var logic;
-// let ninjas: string[];
-var ninjas = [];
-ninjas.push("habib");
-console.log(ninjas);
-var mixed = [];
-mixed.push("hello");
-mixed.push(false);
-mixed.push(76);
-console.log(mixed);
-// objects
-var collection = {
-    name: "habib",
-    roll: 5,
-    student: true
-};
-// collection.name = false
-collection.name = "rahman";
-console.log(collection);
+// dynamic type  
+var player;
+player = "cricketer";
+console.log(player);
+player = true;
+console.log(player);
+player = 75;
+console.log(player);
+var stuff = [];
+stuff.push("basket");
+stuff.push(67);
+stuff.push(false);
+console.log(stuff);
+var names = {};
+names.name = "basket";
+names.value = 8;
+names.male = "not specified";
+console.log(names);

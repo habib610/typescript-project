@@ -1,31 +1,29 @@
-//explicit types
-let num : number;
-let name : string;
-let logic: boolean;
+// dynamic type  
+
+const player: any;
+
+player = "cricketer";
+console.log(player);
+
+player = true;
+
+console.log(player);
+
+player = 75;
+console.log(player);
+
+const stuff: any[] = [];
+
+stuff.push("basket");
+stuff.push(67);
+stuff.push(false);
+console.log(stuff)
 
 
+const names: {name: any, value: any, male: any} = {}
 
-// let ninjas: string[];
-let ninjas: string[] = [];
-ninjas.push("habib");
-console.log(ninjas)
+names.name = "basket";
+names.value = 8;
+names.male = "not specified"
 
-let mixed : (string|number|boolean)[] = [];
-mixed.push("hello");
-mixed.push(false);
-mixed.push(76);
-
-console.log(mixed)
-
-
-// objects
-
-const collection = {
-    name: "habib",
-    roll: 5,
-    student: true
-}
-
-// collection.name = false
-collection.name = "rahman"
-console.log(collection)
+console.log(names)
